@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Émi Lefèvre — Resume</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet">
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+        }
+    </script>
+    <style>
+        body.dark {
+            background-color: #1a202c;
+            color: #e2e8f0;
+        }
+        body.dark a { color: #90cdf4; }
+        @media print
+        {    
+            .no-print, .no-print *
+            {
+                display: none !important;
+            }
+        }
+    </style>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="max-w-4xl mx-auto p-6 mt-10">
+
+      <div class="flex items-center mb-4">
+        <img
+          src="https://cdn.bsky.app/img/avatar/plain/did:plc:hxildwvlwbne4par52ys63wh/bafkreiav74recev5zw3uynnf3nduzm3nf2idgzlhupzw46gxyyhc4vdkiu@jpeg"
+          alt="Émi Lefèvre" class="w-24 h-24 rounded-full mr-4">
+        <h1 class="text-4xl font-bold">Émi Lefèvre</h1>
+      </div>
+      <p class="italic mb-4">I’m a versatile gamedev professional based in
+        Montpellier. I co-founded the studio Plane Toast and served as Creative
+        Director for the game Caravan Sandwitch.</p>
+
+      <h2 class="text-2xl font-semibold mt-6 mb-2">☎️ Contact Information</h2>
+      <ul class="list-none mb-4">
+        <li>📧 <a href="mailto:emi@planetoast.com">emi@planetoast.com</a></li>
+        <li>🐦 <a
+            href="https://bsky.app/profile/laitue.bsky.social">laitue.bsky.social</a></li>
+        <li>🔗 <a href="https://www.linkedin.com/in/emi-le/">LinkedIn</a></li>
+        <li>📞 +33 7 82 86 49 73</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold mt-6 mb-2">👩🏻‍💻 Work Experience</h2>
+      <div class="mb-4">
+        <h3 class="font-bold">Co-founder and Creative Director</h3>
+        <p><em>Plane Toast, Aix-en-Provence (2021-Present)</em></p>
+        <p>Co-founded Plane Toast, leading the creative direction for Caravan
+          Sandwitch. Oversaw a team of up to 14 people, managed game and level
+          design, and contributed to 3D asset creation.</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="font-bold">Junior Gameplay Developer</h3>
+        <p><em>Sorbonne Université, Paris (2019)</em></p>
+        <p>Interned at IKIGAI, a studio focused on serious games. Developed a
+          math learning game prototype in Unity and worked on ennemy AI for the game
+          Stranger Fields.</p>
+      </div>
+
+      <h2 class="text-2xl font-semibold mt-6 mb-2">🎓 Education</h2>
+      <div class="mb-4">
+        <h3 class="font-bold">Entrepreneur Program at IAE Metz</h3>
+        <p><em>Metz (2020-2021)</em></p>
+        <p>Specialized program supporting students in creating their own companies.</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="font-bold">Bachelor's Degree in Engineering and Innovation</h3>
+        <p><em>Nancy (2019-2020)</em></p>
+        <p>Studied engineering, innovation, and project
+          management. Left before M.D. to start my own company.</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="font-bold">CPP, prépa INP</h3>
+        <p><em>Nancy (2017-2019)</em></p>
+        <p>Preparatory
+          program with a focus on math, physics, biology, and computer
+          science.</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="font-bold">High School Diploma</h3>
+        <p><em>Pertuis (2015-2017)</em></p>
+        <p>Specialized in math and engineering, rated “Très Bien.”</p>
+      </div>
+
+      <h2 class="text-2xl font-semibold mt-6 mb-2">🛠 Skills</h2>
+      <ul class="list-disc pl-6">
+        <li><strong>Design ⭐⭐⭐⭐⭐</strong> — Worked on game, world, level, and narrative design for Caravan Sandwitch, ensuring a cohesive creative direction for the team.</li>
+        <li><strong>Producing/Management ⭐⭐⭐⭐⭐</strong> — Coordinated daily and milestone planning for a 14-person team and managed publisher relationships alongside the tech lead.</li>
+        <li><strong>3D Art ⭐⭐⭐⭐</strong> — Created 3D assets in Blender with the help of the art director, including props, materials, and characters, and integrated them into Unreal Engine.</li>
+        <li><strong>Blueprint and C++ for UE5 ⭐⭐⭐</strong> — Prototyped gameplay features and built small editor tools with blueprint, and optimized CI/CD pipelines with C++ for Caravan Sandwitch.</li>
+        <li><strong>C# and Unity ⭐⭐</strong> — Developed a game prototype and implemented enemy AI using a simulated annealing algorithm during an internship at IKIGAI.</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold mt-6 mb-2">🗣 Languages</h2>
+      <ul class="list-disc pl-6">
+        <li>French 🇫🇷 — Native Speaker</li>
+        <li>English 🇺🇸 — Professional Level</li>
+        <li>German 🇩🇪 — Basic Knowledge</li>
+      </ul>
+    </div>
+
+    <button onclick="toggleDarkMode()" class="absolute top-4 right-4 text-2xl no-print">
+      🌙
+    </button>
+  </body>
+</html>
